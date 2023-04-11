@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-size: 500%;
+    color: gold;
+}
+
+button {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    border-radius: 24px;
+    border: none;
+    font-size: 2em;
+    color: black;
+    background-color: violet;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: gold;
+}
